@@ -299,15 +299,16 @@ ggplot(lab3data, aes(x = Gender, y = SWL)) + geom_violin(aes(fill=Gender)) + sca
 
 # Q2: What you can tell from looking at a violin plot? What you cannot tell? What inferences you can make based on the two violin plots?
 
-The violin plot tells you the distribution of the data.By looking at the
-wider parts of the chart you can see the scores that are a higher
-density versus a lower one where it is thinner. It tells you the central
-tendency and how the scores are spread.
+The violin plot tells you the distribution of the data as well as range
+of responses.By looking at the wider parts of the chart you can see the
+scores that are a higher density versus a lower one where it is thinner.
+It tells you the central tendency\* and how the scores are spread.The
+thickets point of the plot shows the mode (roughly)
 
 It doesn’t tell you individual data points, mean, or showing outliers.
 
 Based on the RSE plot you can see that more men score higher on the
 measure than woman by the thick portion on the top. Meaning that men
 score higher in general than women. The SWL plot shows a more similar
-distribution among men and women because they have a similar shape, this
-shows that the means are similar between men and women.
+distribution among men and women because they have a similar
+shape.However women have another peak around 10
